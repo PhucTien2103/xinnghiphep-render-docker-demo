@@ -38,6 +38,23 @@ HIBERNATE_SHOW_SQL=true
 HIBERNATE_FORMAT_SQL=true
 ```
 
+Bien moi truong khuyen nghi (de chuc nang email/avatar on dinh hon tren deploy):
+
+```env
+MAIL_FROM_EMAIL=<your_gmail>
+MAIL_APP_PASSWORD=<your_gmail_app_password>
+MAIL_SMTP_HOST=smtp.gmail.com
+MAIL_SMTP_PORT=587
+MAIL_SMTP_AUTH=true
+MAIL_SMTP_STARTTLS_ENABLE=true
+
+CLOUDINARY_URL=<cloudinary_url>
+# Hoac dung bo 3 ben duoi neu khong dung CLOUDINARY_URL
+# CLOUDINARY_CLOUD_NAME=<cloud_name>
+# CLOUDINARY_API_KEY=<api_key>
+# CLOUDINARY_API_SECRET=<api_secret>
+```
+
 ## 5) Cap nhat phien ban image moi
 ```bash
 docker build -t <dockerhub_user>/xinnghiphep:1.0.1 .
