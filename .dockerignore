@@ -1,0 +1,12 @@
+.git
+.gitignore
+.idea
+target
+bin
+
+material-dashboard-shadcn-vue-1.0.0/node_modules
+material-dashboard-shadcn-vue-1.0.0/dist
+
+*.log
+*.tmp
+*.swp
